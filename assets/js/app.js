@@ -13,7 +13,7 @@ let header = $(`
 <a class="navbar-brand" href="index.html"> Eddiel Qin's Works </a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
-  <div id="js-hamburger" class="hamburger">
+  <div id="js-hamburger" class="hamburger">eddiel
     <span class="first"></span>
     <span class="second"></span>
     <span class="third"></span>

@@ -1,4 +1,5 @@
-/*Research Details Table*/
+/*Project Details Table*/
+AOS.init();
 
 const researchTable = document.querySelector(".main");
 
@@ -57,7 +58,7 @@ const research = [
     absbox: "absPopup3",
   },
 ];
-AOS.init();
+
 const fillData = () => {
   let output = "";
   research.forEach(
@@ -114,3 +115,100 @@ const fillData = () => {
   researchTable.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", fillData);
+
+const websiteTable = document.querySelector(".main2");
+
+const website = [
+  {
+    title: "Fight With Depression 与抑郁症战斗",
+    authors:
+      "Individual Project 个人作业",
+    conferences:
+      "Type: Website 网页开发",
+    researchYr: 2024.4,
+    citebox: "popup1",
+    image: "assets/images/project-page/web.gif",
+    citation: {
+      vancouver:
+        "Github link: <br/> https://github.com/Qinweiiii/G4FinalProject_DMT.git",
+    },
+    abstract:
+      "The website is designed for common people who think they may trap in depression to have a professional PHQ-test for them to know which degree they are at for depression. <br/> 网站是为了一些觉得自己可能得抑郁的人设计的，让他们有机会可以有一个比较专业的PHQ测试来评估自己抑郁的程度。",
+    absbox: "absPopup1",
+  },
+  {
+    title: "FitSphere 健身星球",
+    authors:
+      "Individual Project 个人作业",
+    conferences:
+      "Type: Mobile App 移动应用开发",
+    researchYr: 2024.5,
+    citebox: "popup1",
+    image: "assets/images/project-page/santa.gif",
+    citation: {
+      vancouver:
+        "Github link: <br/> https://github.com/Qinweiiii/G4FinalProject_DMT.git",
+    },
+    abstract:
+      "Fitness is pursued by increasing people recently in terms of both exercise and healthy diets, while fit-lovers also enjoy building up themselves with their friends. Thus, FitSphere is developed fulfilling both professional and social requirements. <br/> 近年来人们越来越注重从运动和饮食两个方面追求健康，同时他们又很享受在朋友的陪伴下一起塑造更好的自己。于是，FitSphere应运而生，同时满足消费者对于专业性和社交性的需求。",
+    absbox: "absPopup1",
+  },
+
+];
+
+const fillData2 = () => {
+  let output = "";
+  website.forEach(
+    ({
+      image,
+      title,
+      authors,
+      conferences,
+      researchYr,
+      citebox,
+      citation,
+      absbox,
+      abstract,
+    }) =>
+      (output += `
+            <tr data-aos="zoom-in-left"> 
+                <td class="imgCol"><img src="${image}" class="rImg"></td>
+                <td class = "researchTitleName">
+                    <div class="img-div">
+                        <span class="imgResponsive">
+                            <img src="${image}" class="imgRes">
+                        </span>
+                    </div>
+                    <a href="#0" class="paperTitle"> ${title} </a> 
+                    <div class = "authors"> ${authors} </div> 
+                    
+                    <div class="rConferences"> ${conferences} 
+                        <div class="researchY">${researchYr}</div>
+                    </div>
+                    
+                    <!--CITE BUTTON-->
+                    <div class="d-flex" style="margin-right:5%;">
+                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
+                            INTRODUCTON
+                        </button>
+                
+                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
+                            LINK
+                        </button>
+                    </div>
+                    <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
+                        <div class="card-body" style="font-size: 13px;">
+                            ${abstract}    
+                        </div>
+                    </div>
+                    <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
+                        <div class="card-body" style="font-size: 13px;">
+                            ${citation.vancouver}  
+                        </div>
+                    </div>
+                </td>
+            </tr>`)
+  );
+  websiteTable.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", fillData2);
