@@ -804,3 +804,63 @@ a:hover {
     width: 60%;
   }
 }
+
+/*
+---------------------------
+      For Different Session Title
+---------------------------
+*/
+.main,
+.main1 {
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 550px) {
+  .main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.main ul,
+.main1 ul {
+  display: block;
+  margin: 0 auto;
+  min-height: 15rem;
+  max-width: 1050px;
+  padding: 1rem !important;
+}
+
+@media (max-width: 390px) {
+  .main1 ul {
+    padding: 15px;
+  }
+}
+
+.heading1 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #222;
+  margin: 0.5em 0;
+  margin-top: 5rem;
+  color: var(--text);
+}
+
+@media (min-width: 675px) {
+  .heading1 {
+    margin-top: 5em;
+  }
+}
+
+/*color of experience page headings*/
+.my_experience {
+  color: #138E01;
+}

@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Test Engineer - Int<br/> 测试工程师实习生",
+    title: "Test Engineer Internship<br/> 测试工程师实习生",
     cardImage: "assets/images/experience-page/testIntern.jpg",
     description:
       "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
