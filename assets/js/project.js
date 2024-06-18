@@ -15,7 +15,7 @@ const research = [
     image: "assets/images/project-page/santa.gif",
     citation: {
       vancouver:
-        "Github link: <br/> https://github.com/Qinweiiii/G4FinalProject_DMT.git",
+        '<a href="https://github.com/Qinweiiii/G4FinalProject_DMT.git">Github Link for Santa Exploration</a>',
     },
     abstract:
       "Santa Exploration is a platform game where the story background is that Santa Claus' gifts were all stolen from bad people, but the Christmas is approaching, thus it's a must for the Santa Claus to find back the gifts. Players need to press keys to jump on the platforms while escaping from traps to grab the gifts and pass the levels. The audio sources used are all warm and encouraging, with the hope of players can have a wonderful new year. <br/> 圣诞老人寻宝之旅是一个平台跳跃游戏；圣诞节前夕，圣诞老人要送出的礼物都被坏人偷了，他必须要找回礼物。玩家需要通过按键在平台上不断跳跃和躲避陷阱来获取礼物从而通关。游戏关卡和加载场景中都使用了温暖且鼓励人的音乐，希望在新年即将开始之际为大家带来对新的一年的美好展望。",
@@ -33,7 +33,7 @@ const research = [
     image: "assets/images/project-page/thor.png",
     citation: {
       vancouver:
-        "",
+        '<a href="https://github.com/Qinweiiii/Thor-s-Adventure.git">Github Link for Thor Adventure</a>',
     },
     abstract:
       "Thor Adventure is a dungeon game that players need to press different keys to control the Thor to collect materials for passing levels and also kill the enemies while escaping various traps for survival. Thor has three magical skills and two movement ways, aiming to provide rich playing experience for players. The appropriate audio used also helps to increase the intense and excitement. <br/> 雷神逃脱之战是一个地牢游戏，玩家需要通过不同的技能和方向按键控制玩家收集通关所需的物资，并且在过程中躲避陷阱和对抗敌人以保住性命。雷神有三种魔法技能和两种移动形态，希望能给玩家提供丰富的体验。使用地恰到好处的音效也有助于增强过程的紧张和激动感。",
@@ -51,7 +51,8 @@ const research = [
     image: "assets/images/project-page/duo.png",
     citation: {
       vancouver:
-        "Github link: <br/> https://github.com/Qinweiiii/JellyPop-Assignment2.git",
+        '<a href="https://github.com/Qinweiiii/JellyPop-Assignment2.git">Github Link for Duo Odyssey</a>',
+        
     },
     abstract:
       "Duo Odyssey is a platform jumping game developed for double players, who need to cooperate with the other to kill the monsters, escape from traps and fetch the keys for passing level. The appealing and cute aesthetical style is expected to bring players unique playing experience, while the double player mechanism helps to cultivate understanding between players. <br/> 奥德赛双重奏是一个双人游戏，两位玩家需要打配合来击败怪物, 躲避陷阱以拿到钥匙通关。整个游戏的画风有较高的吸引力和可爱性，会为玩家带来不一样的游玩体验；同时玩家们也会在玩游戏过程中培养彼此间的默契。",
@@ -130,7 +131,7 @@ const website = [
     image: "assets/images/project-page/web.gif",
     citation: {
       vancouver:
-        "Github link: <br/> https://github.com/Qinweiiii/G4FinalProject_DMT.git",
+        '<a href="https://github.com/Qinweiiii/FightWithDepression.git">Github Link for Fight With Depression</a>',
     },
     abstract:
       "The website is designed for common people who think they may trap in depression to have a professional PHQ-test for them to know which degree they are at for depression. <br/> 网站是为了一些觉得自己可能得抑郁的人设计的，让他们有机会可以有一个比较专业的PHQ测试来评估自己抑郁的程度。",
@@ -147,14 +148,14 @@ const website = [
     image: "assets/images/project-page/app.gif",
     citation: {
       vancouver:
-        "Github link: <br/> https://github.com/Qinweiiii/G4FinalProject_DMT.git",
+      '<a href="https://github.com/Qinweiiii/FitSphere.git">Github Link for FitSphere</a>',
     },
     abstract:
       "Fitness is pursued by increasing people recently in terms of both exercise and healthy diets, while fit-lovers also enjoy building up themselves with their friends. Thus, FitSphere is developed fulfilling both professional and social requirements. <br/> 近年来人们越来越注重从运动和饮食两个方面追求健康，同时他们又很享受在朋友的陪伴下一起塑造更好的自己。于是，FitSphere应运而生，同时满足消费者对于专业性和社交性的需求。",
     absbox: "absPopup1",
   },
   {
-    title: "RecycleMate 健身星球",
+    title: "RecycleMate 回收伙伴",
     authors:
       "Individual Part (小组作业里的）个人部分",
     conferences:
@@ -164,7 +165,7 @@ const website = [
     image: "assets/images/project-page/figma.gif",
     citation: {
       vancouver:
-        '<a href="https://www.figma.com/proto/G7mDOzZDLoLJ84WzlNDmL2/RecycleMate?node-id=137-456&starting-point-node-id=137%3A456&t=vd1IDG54Ol9rumaf-1">Figma Link</a>',
+        '<a href="https://www.figma.com/proto/G7mDOzZDLoLJ84WzlNDmL2/RecycleMate?node-id=137-456&starting-point-node-id=137%3A456&t=vd1IDG54Ol9rumaf-1">Figma Link for RecycleMate</a>',
     },
     abstract:
       "Fitness is pursued by increasing people recently in terms of both exercise and healthy diets, while fit-lovers also enjoy building up themselves with their friends. Thus, FitSphere is developed fulfilling both professional and social requirements. <br/> 近年来人们越来越注重从运动和饮食两个方面追求健康，同时他们又很享受在朋友的陪伴下一起塑造更好的自己。于是，FitSphere应运而生，同时满足消费者对于专业性和社交性的需求。",
