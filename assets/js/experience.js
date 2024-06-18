@@ -65,13 +65,13 @@ const volunteershipcards = [
     title: "Test Engineer Internship<br/> 测试工程师实习生",
     cardImage: "assets/images/experience-page/testIntern.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "整理测试用例，对产品进行质量检验，配置环境后实地标测；对专业的技术测试有了一定的了解。",
   },
   {
     title: "IELTS ASSIST TUTOR <br/> 雅思辅导机构助教",
     cardImage: "assets/images/experience-page/tutor.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "协助老师们的教学，帮助学生答疑，负责大型团建的物资采买；培养了较好的职场社交素养。",
   },
 ];
 
