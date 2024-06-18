@@ -97,7 +97,7 @@ section > div {
 
 /*color of experience page headings*/
 .my_experience {
-  color: #4e00bb;
+  color: #138E01;
 }
 
 .sub-heading {
@@ -168,9 +168,9 @@ section > div {
 .card1 .card-body {
   display: flex;
   flex-flow: row wrap;
-  padding: 18px;
+  padding: 15px;
   color: var(--head-col);
-  border-radius: 0 13px 13px 0;
+  border-radius: 0 18px 18px 0;
 }
 
 .card1 header {
@@ -178,9 +178,10 @@ section > div {
 }
 
 .card1 .meta {
-  margin-bottom: 22px;
+  margin-bottom: 15px;
   margin: 0;
   text-align: center;
+  padding: 10px 20px;
 }
 
 ul ol {
@@ -274,7 +275,7 @@ ul ol {
 
 .card-body .meta {
   color: var(--meta-col);
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .card-body .author {
@@ -435,7 +436,7 @@ ul ol {
 
 .card-body p {
   margin: 0px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .content {

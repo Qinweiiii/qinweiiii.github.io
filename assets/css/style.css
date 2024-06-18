@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Monday";
-  src: url(../fonts/Monday.otf);
+  src: url(../fonts/Armyblue.otf);
 }
 
 
@@ -36,7 +36,7 @@ html[data-theme="light"] {
 html[data-theme="dark"] {
   --bg-mybtn: rgb(230, 109, 129);
   --bg-nav: #17cb32;
-  --bg-nav-img: linear-gradient(315deg, #1aa72a 0%, #882463 74%);
+  --bg-nav-img: linear-gradient(315deg, #1aa72a 0%, #245388 74%);
   --bg-footer: linear-gradient(315deg, #1aa72a 0%, #882463 74%);
   --bg: #191919;
   --text: #ffffff;
@@ -116,8 +116,8 @@ body {
 #btnScrollToTop {
   width: 50px;
   height: 50px;
-  background-color: #6dcd74;
-  color: #fff;
+  background-color: #187152 100% !important;
+  color: #212020;
   margin: 8px;
   border: none;
   border-radius: 50%;
@@ -229,11 +229,11 @@ html {
 }
 
 .navbar-brand {
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-top: 12px;
+  padding-left: 15px;
   font-family: Monday;
   font-size: 32px;
-  font-weight: 800;
+  font-weight: bolder;
   color: #3a7e34;
 }
 
@@ -303,7 +303,7 @@ html[light-mode="dark"] {
 
 .dark-theme .navbar-nav .nav-link,
 .dark-theme .navbar-brand {
-  color: rgba(255, 255, 255, 0.5);
+  color: white !important;
 }
 
 .dark-theme .nav-link:hover{
@@ -524,7 +524,8 @@ html[light-mode="light"] .navbar-brand:hover{
 
 .tag {
   font-family: "Poppins", sans-serif;
-  font: size 20px;
+  font: size 24px;
+  font-weight: 900;
   line-height: 26px;
   text-align: center;
   color: #fff;
@@ -808,7 +809,7 @@ Contact Form In Footer
 
 .form-header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 40px;
 }
 
 form {
@@ -862,7 +863,7 @@ form {
   background: transparent;
   margin-bottom: 4%;
   border: #000;
-  border-bottom: 2px solid #fc8686;
+  border-bottom: 2px solid #66B263;
   padding: 3%;
   color: rgb(107, 105, 105);
   font: 95% Arial, Helvetica, sans-serif;
@@ -879,9 +880,9 @@ form {
 .form-style-6 input[type="url"]:focus,
 .form-style-6 textarea:focus,
 .form-style-6 select:focus {
-  box-shadow: 0 0 5px #fc8686;
+  box-shadow: 0 0 5px #66B263;
   padding: 3%;
-  border: 1px solid #fc8686;
+  border: 1px solid #66B263;
   border-radius: 2px;
 }
 
@@ -893,8 +894,8 @@ form {
   width: 100%;
   margin-top: 2rem;
   padding: 3%;
-  background: #fc8686;
-  border-bottom: 2px solid #fc8686;
+  background: #66B263;
+  border-bottom: 2px solid #66B263;
   border-radius: 23px;
   border-top-style: none;
   border-right-style: none;
@@ -1034,7 +1035,7 @@ outline: none;
   border-radius: 50px;
   border-style: none;
   transition: 0.5s ease background-color, 0.5s ease box-shadow;
-  background: #fc8686;
+  background: #66B263;
 }
 #lnch_btn {
   position: absolute;

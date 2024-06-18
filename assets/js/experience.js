@@ -5,25 +5,25 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "KL Standard Charterted Marathon 2023",
+    cardImage: "assets/images/experience-page/marathon.jpg",
+    place: "Volunteer",
+    time: "(Sep 30, 2023 ~ Oct 1, 2023)",
+    desp: "As the volunteer working at the Destination Station： <br/> 1. Prepare the food&drinks and medals after the match starts <br /> 2. Distribute the food&drinks and medals when players arrive <br /> 作为终点站的志愿者： <br/> 1. 在运动员开跑之后开始全力准备物资和奖牌 <br /> 2. 在运动员到达终点后送上补给物和奖牌 <br />",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "X-Awards 2023",
+    cardImage: "assets/images/experience-page/xawards.jpg",
+    place: "Secretary",
+    time: "(Sep 2023 ~ Dec 2023)",
+    desp: "As the secretary of the X-Awards Committees： <br/> 1. Record the meeting minutes for weekly meetings <br />2. Prepare all forms for responses from public and summarize the results <br />作为活动组委的秘书： <br/> 1. 每周记录和上交周会会议记录方便老师知道进度 <br /> 2. 设计和发布所有问卷并且整理收到的回复结果 <br />",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "CodeCraft Championship",
+    cardImage: "assets/images/experience-page/codecraft.jpg",
+    place: "Secretary",
+    time: "(March 2023 ~ May 2023)",
+    desp: "As the secretary of the Student Union of School of Computing & Data Science： <br/> 1. Record the meeting minutes for pre-event meetings <br />2. Write and compile the proposal for event <br />作为院学生会秘书： <br/> 1. 记录和上交活动前准备期间的会议记录 <br /> 2. 负责编写和整合活动议案 <br />",
   },
 ];
 
@@ -62,28 +62,16 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Test Engineer - Int<br/> 测试工程师实习生",
+    cardImage: "assets/images/experience-page/testIntern.jpg",
     description:
       "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "IELTS ASSIST TUTOR <br/> 雅思辅导机构助教",
+    cardImage: "assets/images/experience-page/tutor.jpg",
     description:
       "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-  },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
 ];
 
