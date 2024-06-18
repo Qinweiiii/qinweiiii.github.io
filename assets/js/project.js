@@ -144,10 +144,27 @@ const website = [
       "Type: Mobile App 移动应用开发",
     researchYr: 2024.5,
     citebox: "popup1",
-    image: "assets/images/project-page/santa.gif",
+    image: "assets/images/project-page/app.gif",
     citation: {
       vancouver:
         "Github link: <br/> https://github.com/Qinweiiii/G4FinalProject_DMT.git",
+    },
+    abstract:
+      "Fitness is pursued by increasing people recently in terms of both exercise and healthy diets, while fit-lovers also enjoy building up themselves with their friends. Thus, FitSphere is developed fulfilling both professional and social requirements. <br/> 近年来人们越来越注重从运动和饮食两个方面追求健康，同时他们又很享受在朋友的陪伴下一起塑造更好的自己。于是，FitSphere应运而生，同时满足消费者对于专业性和社交性的需求。",
+    absbox: "absPopup1",
+  },
+  {
+    title: "RecycleMate 健身星球",
+    authors:
+      "Individual Part (小组作业里的）个人部分",
+    conferences:
+      "Type: UI Prototype 用户界面设计图（未开发）",
+    researchYr: 2023.6,
+    citebox: "popup1",
+    image: "assets/images/project-page/figma.gif",
+    citation: {
+      vancouver:
+        '<a href="https://www.figma.com/proto/G7mDOzZDLoLJ84WzlNDmL2/RecycleMate?node-id=137-456&starting-point-node-id=137%3A456&t=vd1IDG54Ol9rumaf-1">Figma Link</a>',
     },
     abstract:
       "Fitness is pursued by increasing people recently in terms of both exercise and healthy diets, while fit-lovers also enjoy building up themselves with their friends. Thus, FitSphere is developed fulfilling both professional and social requirements. <br/> 近年来人们越来越注重从运动和饮食两个方面追求健康，同时他们又很享受在朋友的陪伴下一起塑造更好的自己。于是，FitSphere应运而生，同时满足消费者对于专业性和社交性的需求。",
