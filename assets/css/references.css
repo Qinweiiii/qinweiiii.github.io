@@ -5,7 +5,7 @@
 /*Declaring CSS variables for Light mode*/
 
 html[light-mode="light"] {
-  --bg1-color: #f6f6f6;
+  --bg1-color: #000;
   --bg-head: #ffffff;
   --bg-col: #f6f6f6;
   --p-up: black;

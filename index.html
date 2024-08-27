@@ -57,8 +57,6 @@
         </div>
     </div>
 
-    <!--Dynamic Nav Bar-->
-
     <!--Particles effect-->
     <div id="home">
         <section class="center">
@@ -199,6 +197,33 @@
             </div>
         </div>
     </center>
+
+    <!-- <canvas id="Meteor" class="starsky"></canvas> -->
+
+    <script type="text/javascript">
+        var starCount = 300;
+        
+        function starInit() {
+            var bg = document.querySelector("body");
+            for (var i = 0; i < starCount; i++) {
+                var star = document.createElement("div");
+                star.classList.add("star");
+                bg.appendChild(star);
+            }
+        }
+    
+        function starPosition() {
+            var stars = document.querySelectorAll(".star");
+            for (var i = 0; i < starCount; i++) {
+                stars[i].style.left = Math.random() * window.innerWidth + "px";
+                stars[i].style.top = Math.random() * window.innerHeight + "px";
+                stars[i].style.animationDelay = Math.random() * 10 + "s";
+            }
+        }
+    
+        starInit();
+        starPosition();
+    </script>
 
     <br><br><br>
     <!-- Dynamic footer section -->

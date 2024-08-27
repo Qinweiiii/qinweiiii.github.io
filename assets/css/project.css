@@ -5,7 +5,7 @@
 /*Declaring CSS variables for Light mode*/
 
 html[light-mode="light"] {
-  --bg1-color: #ffffff;
+  --bg1-color: #fefefe;
   --bg-head: #ffffff;
   --bg-col: #fff;
   --p-up: black;
@@ -68,6 +68,7 @@ body {
 /*Research page*/
 .txt-bottom {
   height: auto;
+  padding: 0;
 }
 
 .researchMainWrapper {

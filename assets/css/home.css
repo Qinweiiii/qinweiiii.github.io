@@ -19,7 +19,7 @@ html[data-theme="light"] {
   --col-icon-codeforces:rgb(19, 145, 184);
   --col-icon-leetcode:rgb(255, 181, 62);
   --shadow-col: rgba(0, 0, 0, 0.3);
-
+  --starcolor: transparent;
 }
 
 html[data-theme="dark"] {
@@ -38,6 +38,7 @@ html[data-theme="dark"] {
   --col-icon-codeforces:rgb(19, 145, 184);
   --col-icon-leetcode:rgb(255, 181, 62);
   --col-white: #fff;
+  --starcolor: #fff;
 }
 /* Particle effect*/
 body{
@@ -610,4 +611,54 @@ a:hover {
   .text{
     margin-top: 1rem;
   }
+}
+
+.star {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0.5;
+  border: 2px solid transparent;
+  border-bottom: 4px solid #fff;
+  animation: flash 2s infinite linear;
+}
+
+  .star::before {
+      content: "";
+      position: absolute;
+      left: -2px;
+      top: 4px;
+      border: 2px solid transparent;
+      border-top: 4px solid #fff;
+  }
+
+@keyframes flash {
+  20% {
+      opacity: 0.2;
+  }
+
+  40% {
+      opacity: 0.5;
+  }
+
+  60% {
+      opacity: 1;
+  }
+
+  80% {
+      opacity: 0.5;
+  }
+
+  100% {
+      opacity: 0.2;
+  }
+}
+
+.starsky {
+  position: absolute;
+  z-index: -50;
+}
+
+.body {
+  background-color: #141516;
 }

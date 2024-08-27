@@ -28,7 +28,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item">
-   <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
+    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet">
@@ -122,13 +122,13 @@ let footer = $(`
     
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center">
+        <div class="col-lg-7 col-md-12 mt-2 mb-6 mb-md-0 justify-content-center">
           <img src="assets/images/home/contact.gif" style="width:99%;">
         </div>
 
 
 
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
+        <div class="col-lg-5 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header">
                 <h6 class="display">Contact Me 联系我</h6>

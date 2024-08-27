@@ -11,10 +11,10 @@ html[data-theme="light"] {
   --bg-nav: black;
   --bg-nav-img: black;
   --bg-footer: #DDE1EC;
-  --bg: #ffffff;
-  --text: #191919;
+  --bg: #fff !important;
+  --text: #ffffff;
   --text-color: #6c757d;
-  --col-icon: black;
+  --col-icon: white;
   --col-bd-radius: rgb(2, 2, 2);
   --col-box-shadow: #000000 2px 2px 4px, #4D4D4D -2px -2px 4px;
   --col-box-shadow-hover: inset #8a7373 2px 2px 4px, inset #4D4D4D -2px -2px 4px;
