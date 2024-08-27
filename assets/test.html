@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Particles.js Instances</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    .particles-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none; /* Ensure particles don't block interactions */
+    }
+    #particles-js1 { z-index: 1; }
+    #particles-js2 { z-index: 2; }
+    #particles-js3 { z-index: 3; }
+  </style>
+</head>
+<body>
+  <div id="particles-js1" class="particles-container"></div>
+  <div id="particles-js2" class="particles-container"></div>
+  <div id="particles-js3" class="particles-container"></div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    // 配置第一个 particles.js 实例
+    particlesJS('particles-js1', {
+      "particles": {
+        "number": {
+          "value": 50
+        },
+        "shape": {
+          "type": "image",
+          "image": {
+            "src": "assets/images/home/earth.png",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "size": {
+          "value": 30
+        },
+        "move": {
+          "speed": 3
+        }
+      }
+    });
+
+    // 配置第二个 particles.js 实例
+    particlesJS('particles-js2', {
+      "particles": {
+        "number": {
+          "value": 50
+        },
+        "shape": {
+          "type": "image",
+          "image": {
+            "src": "blueplanet.png",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "size": {
+          "value": 30
+        },
+        "move": {
+          "speed": 3
+        }
+      }
+    });
+
+    // 配置第三个 particles.js 实例
+    particlesJS('particles-js3', {
+      "particles": {
+        "number": {
+          "value": 50
+        },
+        "shape": {
+          "type": "image",
+          "image": {
+            "src": "blueplanet.png",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "size": {
+          "value": 30
+        },
+        "move": {
+          "speed": 3
+        }
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,99 +1,253 @@
-/* ---- particles.js config ---- */
+const imagePaths = [
+  "assets/images/home/jupiter.png",
+  "assets/images/home/blueplanet.png",
+  "assets/images/home/redplanet.png",
+  "assets/images/home/purpleplanet.png"
+];
 
-particlesJS("particles-js", {
-  particles: {
-    number: {
-      value: 140,
-      density: {
-        enable: true,
-        value_area: 800,
-      },
-    },
-    color: {
-      value: ["#2EB67D", "#ECB22E", "#E01E5B", "#36C5F0"],
-    },
-    shape: {
-      type: "circle",
-      stroke: {
-        width: 0,
-        color: "#fff",
-      },
-      polygon: {
-        nb_sides: 5,
-      },
-      image: {
-        src: "https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png",
-        width: 100,
-        height: 100,
-      },
-    },
+let imageIndex = 0;
 
-    opacity: {
-      value: 1,
-      random: false,
-      anim: {
-        enable: false,
-        speed: 1,
-        opacity_min: 0.1,
-        sync: false,
-      },
+// 配置 particles.js
+particlesJS("particles-js1", {
+  "particles": {
+    "number": {
+      "value": 5,
+      "density": {
+        "enable": false
+      }
     },
-    size: {
-      value: 8,
-      random: true,
-      anim: {
-        enable: false,
-        speed: 10,
-        size_min: 10,
-        sync: false,
-      },
+    "color": {
+      "value": "#000"
     },
-    line_linked: {
-      enable: true,
-      distance: 150,
-      color: "#808080",
-      opacity: 0.4,
-      width: 1,
+    "opacity": {
+      "value": 1,
+      "anim": {
+        "enable": false
+      }
     },
-    move: {
-      enable: true,
-      speed: 5,
-      direction: "none",
-      random: false,
-      straight: false,
-      out_mode: "out",
-      bounce: false,
-      attract: {
-        enable: false,
-        rotateX: 600,
-        rotateY: 1200,
-      },
+    "shape": {
+      "type": "image",
+      "image": {
+        "src": imagePaths[0], // 使用随机选定的图像路径
+        "width": 100,
+        "height": 100
+      }
     },
+    "size": {
+      "value": 50,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 7,
+        "size_min": 40,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 1,
+      "direction": "none",
+      "straight": false
+    }
   },
-  interactivity: {
-    detect_on: "window",
-    events: {
-      onhover: {
-        enable: true,
-        mode: "repulse",
-      },
-      onclick: {
-        enable: true,
-        mode: "push",
-      },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false
+      }
     },
-    modes: {
-      repulse: {
-        distance: 70,
-        duration: 0.4,
-      },
-      push: {
-        particles_nb: 4,
-      },
-    },
+    "modes": {
+      "push": {
+        "particles_nb": 1
+      }
+    }
   },
-  retina_detect: true,
 });
+
+particlesJS("particles-js2", {
+  "particles": {
+    "number": {
+      "value": 5,
+      "density": {
+        "enable": false
+      }
+    },
+    "color": {
+      "value": "#000"
+    },
+    "opacity": {
+      "value": 1,
+      "anim": {
+        "enable": false
+      }
+    },
+    "shape": {
+      "type": "image",
+      "image": {
+        "src": imagePaths[1], // 使用随机选定的图像路径
+        "width": 100,
+        "height": 100
+      }
+    },
+    "size": {
+      "value": 50,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 7,
+        "size_min": 40,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 1,
+      "direction": "none",
+      "straight": false
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false
+      }
+    },
+    "modes": {
+      "push": {
+        "particles_nb": 1
+      }
+    }
+  },
+});
+
+particlesJS("particles-js3", {
+  "particles": {
+    "number": {
+      "value": 5,
+      "density": {
+        "enable": false
+      }
+    },
+    "color": {
+      "value": "#000"
+    },
+    "opacity": {
+      "value": 1,
+      "anim": {
+        "enable": false
+      }
+    },
+    "shape": {
+      "type": "image",
+      "image": {
+        "src": imagePaths[2], // 使用随机选定的图像路径
+        "width": 100,
+        "height": 100
+      }
+    },
+    "size": {
+      "value": 50,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 7,
+        "size_min": 40,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 1,
+      "direction": "none",
+      "straight": false
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false
+      }
+    },
+    "modes": {
+      "push": {
+        "particles_nb": 1
+      }
+    }
+  },
+});
+
+particlesJS("particles-js4", {
+  "particles": {
+    "number": {
+      "value": 5,
+      "density": {
+        "enable": false
+      }
+    },
+    "color": {
+      "value": "#000"
+    },
+    "opacity": {
+      "value": 1,
+      "anim": {
+        "enable": false
+      }
+    },
+    "shape": {
+      "type": "image",
+      "image": {
+        "src": imagePaths[3], // 使用随机选定的图像路径
+        "width": 100,
+        "height": 100
+      }
+    },
+    "size": {
+      "value": 50,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 7,
+        "size_min": 40,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 1,
+      "direction": "none",
+      "straight": false
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false
+      }
+    },
+    "modes": {
+      "push": {
+        "particles_nb": 1
+      }
+    }
+  },
+});
+
 const allElements = document.querySelectorAll(".animated-text");
 
 // It checks if there is at least one element

@@ -121,13 +121,30 @@ const websiteTable = document.querySelector(".main2");
 
 const website = [
   {
+    title: "CardCraze 卡片星球",
+    authors:
+      "My Part: My Product + Add Product",
+    conferences:
+      "Type: Website 网页开发",
+    researchYr: 2024.7,
+    citebox: "popup1",
+    image: "assets/images/project-page/cardcraze.gif",
+    citation: {
+      vancouver:
+        '<a href="https://github.com/Qinweiiii/FightWithDepression.git">Github Link for CardCraze</a>',
+    },
+    abstract:
+      "CardCraze is a platform for card lovers who want to collect or sell cards of various kinds —— Each user is not only a buyer but also a seller. <br/> CardCraze为周边卡片狂热者提供了一个平台，他们既能在平台上收购他们想要的卡片，也可以出售他们不再需要的卡片。",
+    absbox: "absPopup1",
+  },
+  {
     title: "Fight With Depression 与抑郁症战斗",
     authors:
       "Individual Project 个人作业",
     conferences:
       "Type: Website 网页开发",
     researchYr: 2024.4,
-    citebox: "popup1",
+    citebox: "popup2",
     image: "assets/images/project-page/web.gif",
     citation: {
       vancouver:
@@ -135,7 +152,41 @@ const website = [
     },
     abstract:
       "The website is designed for common people who think they may trap in depression to have a professional PHQ-test for them to know which degree they are at for depression. <br/> 网站是为了一些觉得自己可能得抑郁的人设计的，让他们有机会可以有一个比较专业的PHQ测试来评估自己抑郁的程度。",
-    absbox: "absPopup1",
+    absbox: "absPopup2",
+  },
+  {
+    title: "Patient Info Form 病人信息表",
+    authors:
+      "Individual Project 个人作业",
+    conferences:
+      "Type: Website 网页开发",
+    researchYr: 2024.6,
+    citebox: "popup3",
+    image: "assets/images/project-page/patients.gif",
+    citation: {
+      vancouver:
+        '<a href="https://github.com/Qinweiiii/FightWithDepression.git">Github Link for Fight With Depression</a>',
+    },
+    abstract:
+      "The form is used to collect information from patients who may need help, where the background is meteor streaking and decorated with StellaLou, hoping to bringing more comfort for patients. <br/> 表单用于收集可能会需要帮助的病人的信息，背景是流星划过，搭配着星黛露希望能给病人带来更多安抚。",
+    absbox: "absPopup3",
+  },
+  {
+    title: "Nature Rescuer 拯救大自然",
+    authors:
+      "Individual Project 个人作业",
+    conferences:
+      "Type: Website 网页开发",
+    researchYr: 2024.7,
+    citebox: "popup4",
+    image: "assets/images/project-page/naturerescuer.gif",
+    citation: {
+      vancouver:
+        '<a href="https://github.com/Qinweiiii/FightWithDepression.git">Github Link for Fight With Depression</a>',
+    },
+    abstract:
+      "The website aims to actracting more people to protect the nature, where individuals can choose to join others' events or hold their own activities. <br/> Nature Rescuer立志于吸引更多人参与大自然保护事业，用户可以自由参与别人举办的活动或直接成为活动的主办方",
+    absbox: "absPopup4",
   },
   {
     title: "FitSphere 健身星球",
@@ -144,7 +195,7 @@ const website = [
     conferences:
       "Type: Mobile App 移动应用开发",
     researchYr: 2024.5,
-    citebox: "popup1",
+    citebox: "popup5",
     image: "assets/images/project-page/app.gif",
     citation: {
       vancouver:
@@ -152,7 +203,7 @@ const website = [
     },
     abstract:
       "Fitness is pursued by increasing people recently in terms of both exercise and healthy diets, while fit-lovers also enjoy building up themselves with their friends. Thus, FitSphere is developed fulfilling both professional and social requirements. <br/> 近年来人们越来越注重从运动和饮食两个方面追求健康，同时他们又很享受在朋友的陪伴下一起塑造更好的自己。于是，FitSphere应运而生，同时满足消费者对于专业性和社交性的需求。",
-    absbox: "absPopup1",
+    absbox: "absPopup5",
   },
   {
     title: "RecycleMate 回收伙伴",
@@ -161,7 +212,7 @@ const website = [
     conferences:
       "Type: UI Prototype 用户界面设计图（未开发）",
     researchYr: 2023.6,
-    citebox: "popup1",
+    citebox: "popup6",
     image: "assets/images/project-page/figma.gif",
     citation: {
       vancouver:
@@ -169,7 +220,7 @@ const website = [
     },
     abstract:
       "Fitness is pursued by increasing people recently in terms of both exercise and healthy diets, while fit-lovers also enjoy building up themselves with their friends. Thus, FitSphere is developed fulfilling both professional and social requirements. <br/> 近年来人们越来越注重从运动和饮食两个方面追求健康，同时他们又很享受在朋友的陪伴下一起塑造更好的自己。于是，FitSphere应运而生，同时满足消费者对于专业性和社交性的需求。",
-    absbox: "absPopup1",
+    absbox: "absPopup6",
   },
 
 ];

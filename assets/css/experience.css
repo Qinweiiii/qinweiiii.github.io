@@ -249,8 +249,8 @@ ul ol {
   line-height: 1.2;
   font-weight: bold;
   color: #222;
-  margin: 0.5em 0;
-  margin-top: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
   color: var(--text);
 }
 
