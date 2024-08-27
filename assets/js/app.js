@@ -133,7 +133,7 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Contact Me 联系我</h6>
               </div>
-                <form name="form1" action="https://formcarry.com/s/BywEPAJNb" method="POST" accept-charset="UTF-8" >
+                <form name="form1" action="https://formcarry.com/s/BydVpd9Td-E" method="POST" accept-charset="UTF-8" >
                   <input id="name" type="text" name="name" placeholder="Your Name 你的名字" required/>
                   <input id="email" type="email" name="email" placeholder="Email Address 邮箱地址" required/>                  
                   <textarea id="textArea" name="message" placeholder="Type your Message 输入要发送的信息" required></textarea>
