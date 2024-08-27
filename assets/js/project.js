@@ -165,7 +165,7 @@ const website = [
     image: "assets/images/project-page/patients.gif",
     citation: {
       vancouver:
-        '<a href="https://github.com/Qinweiiii/FightWithDepression.git">Github Link for Fight With Depression</a>',
+        '<a href="https://github.com/Qinweiiii/FightWithDepression.git">Github Link for Patient Info Form</a>',
     },
     abstract:
       "The form is used to collect information from patients who may need help, where the background is meteor streaking and decorated with StellaLou, hoping to bringing more comfort for patients. <br/> 表单用于收集可能会需要帮助的病人的信息，背景是流星划过，搭配着星黛露希望能给病人带来更多安抚。",
@@ -182,7 +182,7 @@ const website = [
     image: "assets/images/project-page/naturerescuer.gif",
     citation: {
       vancouver:
-        '<a href="https://github.com/Qinweiiii/NatureRescuer.git">Github Link for Fight With Depression</a>',
+        '<a href="https://github.com/Qinweiiii/NatureRescuer.git">Github Link for Nature Rescuer</a>',
     },
     abstract:
       "The website aims to actracting more people to protect the nature, where individuals can choose to join others' events or hold their own activities. <br/> Nature Rescuer立志于吸引更多人参与大自然保护事业，用户可以自由参与别人举办的活动或直接成为活动的主办方。",
