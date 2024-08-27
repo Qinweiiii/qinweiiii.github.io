@@ -131,7 +131,7 @@ const website = [
     image: "assets/images/project-page/cardcraze.gif",
     citation: {
       vancouver:
-        '<a href="https://github.com/Qinweiiii/FightWithDepression.git">Github Link for CardCraze</a>',
+        '<a href="https://github.com/Qinweiiii/CardCraze.git">Github Link for CardCraze</a>',
     },
     abstract:
       "CardCraze is a platform for card lovers who want to collect or sell cards of various kinds —— Each user is not only a buyer but also a seller. <br/> CardCraze为周边卡片狂热者提供了一个平台，他们既能在平台上收购他们想要的卡片，也可以出售他们不再需要的卡片。",
@@ -182,10 +182,10 @@ const website = [
     image: "assets/images/project-page/naturerescuer.gif",
     citation: {
       vancouver:
-        '<a href="https://github.com/Qinweiiii/FightWithDepression.git">Github Link for Fight With Depression</a>',
+        '<a href="https://github.com/Qinweiiii/NatureRescuer.git">Github Link for Fight With Depression</a>',
     },
     abstract:
-      "The website aims to actracting more people to protect the nature, where individuals can choose to join others' events or hold their own activities. <br/> Nature Rescuer立志于吸引更多人参与大自然保护事业，用户可以自由参与别人举办的活动或直接成为活动的主办方",
+      "The website aims to actracting more people to protect the nature, where individuals can choose to join others' events or hold their own activities. <br/> Nature Rescuer立志于吸引更多人参与大自然保护事业，用户可以自由参与别人举办的活动或直接成为活动的主办方。",
     absbox: "absPopup4",
   },
   {
